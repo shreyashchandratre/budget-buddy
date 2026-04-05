@@ -1,17 +1,75 @@
-# budgetbuddy
+# BudgetBuddy 💰
 
-A new Flutter project.
+A personal finance management app built with Flutter that helps you track expenses, split bills, and stay on top of your budget.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Transactions** — Log income and expenses with categories, notes, and dates
+- **Analytics** — Visualize spending patterns with interactive charts and summaries
+- **Split Expense** — Divide bills among friends and track who owes what
+- **Budgets** — Set monthly or category-based budgets and get notified when you're close to the limit
+- **PDF Export** — Generate and share detailed financial reports as PDF files
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+| Dashboard | Analytics | Budgets |
+|-----------|-----------|---------|
+| _coming soon_ | _coming soon_ | _coming soon_ |
+
+| Transactions | Split Expense | PDF Export |
+|--------------|---------------|------------|
+| _coming soon_ | _coming soon_ | _coming soon_ |
+
+---
+
+## Installation
+
+### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) >= 3.0.0
+- Dart >= 3.0.0
+- Android Studio / Xcode (for mobile targets)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/budgetbuddy.git
+   cd budgetbuddy
+   ```
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+4. To build a release APK:
+   ```bash
+   flutter build apk --release
+   ```
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | [Flutter](https://flutter.dev) |
+| Local Database | [SQLite](https://pub.dev/packages/sqflite) |
+| State Management | [Provider](https://pub.dev/packages/provider) |
+| Charts | [fl_chart](https://pub.dev/packages/fl_chart) |
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
